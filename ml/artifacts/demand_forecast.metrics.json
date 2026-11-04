@@ -1,0 +1,34 @@
+{
+  "model": "extra_trees_store_daily_demand",
+  "target": "sales_units",
+  "features": [
+    "store_id",
+    "weekday",
+    "event_type",
+    "month",
+    "year",
+    "event_present",
+    "snap",
+    "average_sell_price",
+    "promotion_share",
+    "sales_lag_1",
+    "sales_lag_7",
+    "sales_lag_14",
+    "sales_lag_28",
+    "sales_rolling_mean_7",
+    "sales_rolling_mean_28"
+  ],
+  "split": "chronological",
+  "train_start": "2011-02-26 00:00:00",
+  "train_end": "2015-05-05 00:00:00",
+  "validation_start": "2015-05-06 00:00:00",
+  "validation_end": "2016-05-22 00:00:00",
+  "train_rows": 15300,
+  "validation_rows": 3830,
+  "validation": {
+    "mae": 265.28291183119893,
+    "rmse": 384.78950884392384,
+    "r2": 0.905860484729157
+  },
+  "validation_wape": 0.06664837519864246
+}

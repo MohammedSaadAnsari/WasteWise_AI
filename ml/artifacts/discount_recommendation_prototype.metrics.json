@@ -1,0 +1,21 @@
+{
+  "model": "extra_trees_simulated_discount_prototype",
+  "target": "estimated_gross_margin_simulated",
+  "features": [
+    "product_id",
+    "days_to_expiry",
+    "quantity_remaining",
+    "discount_pct"
+  ],
+  "split": "grouped by batch_id to keep scenario alternatives together",
+  "train_rows": 8000,
+  "validation_rows": 2000,
+  "train_batches": 1600,
+  "validation_batches": 400,
+  "validation": {
+    "mae": 34.63267667291667,
+    "rmse": 90.70837971482554,
+    "r2": 0.9509917887799477
+  },
+  "limitation": "Training targets are simulated scenario estimates, not observed customer behavior or evidence of real price response."
+}

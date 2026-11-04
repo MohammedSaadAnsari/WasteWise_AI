@@ -1,0 +1,45 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and coverage
+*.log
+.coverage
+htmlcov/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary and backup files
+*.bak
+*.backup
+*.product_backup
+
+# Large ML datasets and model artifacts
+ml/data/raw/*.csv
+ml/artifacts/*.joblib
+
+# TypeScript cache
+*.tsbuildinfo
