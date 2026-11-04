@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WasteWise AI
 
 WasteWise AI is a food inventory and waste-monitoring prototype. The frontend
@@ -76,3 +77,7 @@ trained model in `ml/artifacts`.
 - The demand model is a prototype trained and evaluated on historical M5 data.
   Validate it with current store data before operational use. The other
   prototype model artifacts and their limitations are documented under `ml/`.
+=======
+# WasteWise_AI
+AI-powered supermarket demand forecasting and food waste reduction system.
+>>>>>>> origin/main
